@@ -6,6 +6,7 @@
 //#define LANG_RU //Russian, use together with the russian font in libraries folder
 //#define LANG_ES //Spanish
 //#define LANG_CZ //Czech
+//#define LANG_PL //Polish
 
 #ifdef LANG_ENG
   #define defaultFont System5x7mod
@@ -271,4 +272,58 @@
   const char l_c[] PROGMEM = {"C"};
   const char l_t[] PROGMEM = {"T"};
   
+  #endif
+
+  #ifdef LANG_PL
+  #define defaultFont System5x7mod
+
+  const char noBUS1[] PROGMEM = {"BUS nie"};
+  const char noBUS2[] PROGMEM = {"podlaczony!"};
+  const char noBUS3[] PROGMEM = {"Brak danych do"};
+  const char noBUS4[] PROGMEM = {"wyswietlenia!"};
+
+  const char confScr1[] PROGMEM = {"Duzy prędkosciomierz:"};
+  const char confScr2[] PROGMEM = {"Duzy predko.:"};
+  const char confScr2a[] PROGMEM = {"PREDKOSC"};
+  const char confScr2b[] PROGMEM = {" ENERGIA"};
+  const char confScr3[] PROGMEM = {"Ostrzezenie o baterii:"};
+  const char confScr4[] PROGMEM = {"Duza bat. ostrz.:"};
+  const char confScr5[] PROGMEM = {"Info o baterii >"};
+  const char confScr6[] PROGMEM = {"Ustawienia M365 >"};
+  const char confScr7[] PROGMEM = {"Zapisz i wyjdz"};
+
+  const char infoScr1[] PROGMEM = {"Calkowita odległosc"};
+  const char infoScr2[] PROGMEM = {"Czas na"};
+
+  const char battScr[] PROGMEM = {">>>Humulec aby wyjsc<<<"};
+
+  const char M365CfgScr1[] PROGMEM = {"Tempomat:        "};
+  const char M365CfgScr2[] PROGMEM = {"Zapisz ustaw. tempomatu"};
+  const char M365CfgScr3[] PROGMEM = {"Tylne światlo wlaczone:"};
+  const char M365CfgScr4[] PROGMEM = {"Zakt. swiatlo tylne"};
+  const char M365CfgScr5[] PROGMEM = {"KERS:        "};
+  const char M365CfgScr6[] PROGMEM = {"Aktualizuj KERS"};
+  const char M365CfgScr8[] PROGMEM = {"< Wyjscie"};
+  const char M365CfgScr7[] PROGMEM = {"Rozmiar kola:   "};
+
+  const char l_85inch[] PROGMEM = {" 8,5\""};
+  const char l_10inch[] PROGMEM = {"  10\""};
+
+  const char l_Weak[] PROGMEM =   {"  SLABA"};
+  const char l_Medium[] PROGMEM = {"SREDNIA"};
+  const char l_Strong[] PROGMEM = {"  SILNA"};
+
+  const char l_Yes[] PROGMEM = {"TAK"};
+  const char l_No[] PROGMEM =  {" NIE"};
+  const char l_On[] PROGMEM =  {"WL"};
+  const char l_Off[] PROGMEM = {"WYL"};
+
+  const char l_km[] PROGMEM = {"km"};
+  const char l_kmh[] PROGMEM = {"km/h"};
+  const char l_mah[] PROGMEM = {"mAh"};
+  const char l_v[] PROGMEM = {"V"};
+  const char l_a[] PROGMEM = {"A"};
+  const char l_c[] PROGMEM = {"C"};
+  const char l_t[] PROGMEM = {"T"};
+
   #endif
